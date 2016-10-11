@@ -1,8 +1,8 @@
 # orange-webcrawler
 Orange Web Crawler
 
-mvn clean install
+1. mvn clean install
 
-deploy the package into tomcat/webapp/
+2. deploy the package into tomcat/webapp/
 
-access with URL: http://localhost:8080/orange-crawler
+3. access with URL: http://localhost:8080/orange-crawler
