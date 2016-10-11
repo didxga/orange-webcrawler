@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+.valid-selection {
+	border:1px solid green !important;
+	background: -moz-linear-gradient(top, rgba(0,255,0,0.5) 0%, rgba(0,255,0,0.5) 100%),-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,255,0,0.5)), color-stop(100%,rgba(0,255,0,0.5))),-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,0,1)), color-stop(100%,rgba(255,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,255,0,0.5) 0%,rgba(0,255,0,0.5) 100%),-webkit-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,255,0,0.5) 0%,rgba(0,255,0,0.5) 100%), -o-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,255,0,0.5) 0%,rgba(0,255,0,0.5) 100%), -ms-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,255,0,0.5) 0%,rgba(0,255,0,0.5) 100%),linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+}
+.invalid-selection {
+	border:1px solid red !important;
+	background: -moz-linear-gradient(top, rgba(255,0,0,0.5) 0%, rgba(255,0,0,0.5) 100%),-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,0,0.5)), color-stop(100%,rgba(255,0,0,0.5))),-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,0,1)), color-stop(100%,rgba(255,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,0,0,0.5) 0%,rgba(255,0,0,0.5) 100%),-webkit-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,0,0,0.5) 0%,rgba(255,0,0,0.5) 100%), -o-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,0,0,0.5) 0%,rgba(255,0,0,0.5) 100%), -ms-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(255,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,0,0,0.5) 0%,rgba(255,0,0,0.5) 100%),linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+}
+.lll-ddd {
+	border:1px solid blue !important;
+	
+	background:red !important;
+}
+
+.delete-btn:after{
+	content: " ";
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 2px;
+    border-radius: 4px;
+    background: url(images/del.png) -1px -1px #ddd;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
