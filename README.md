@@ -1,6 +1,7 @@
 # orange-webcrawler
 Orange Web Crawler
 
+Get Start:
 1. install JDK1.8 / apache tomcat1.7 / maven 
 
 2. checkout the code
