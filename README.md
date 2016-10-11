@@ -11,4 +11,4 @@ Get Start:
 
 3. deploy the package generated under orange-webcrawler/target/ into tomcat/webapp/
 
-4. access with URL: http://localhost:8080/orange-crawler
+4. start tomcat and access with URL: http://localhost:8080/orange-crawler
